@@ -1,0 +1,11 @@
+/* Navigation Bar CSS */
+
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+}
+
+.nav__lists {
+  display: flex;
+  justify-content: space-between;
+}
