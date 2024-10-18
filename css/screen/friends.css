@@ -1,0 +1,14 @@
+/* Friends Display Link CSS */
+
+/* <a href="" id="friends-display-link"></a> */
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
