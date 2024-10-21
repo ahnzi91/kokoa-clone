@@ -46,3 +46,15 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block; /* span이기 때문에 margin-bottom을 적용시키기 위해서는 block이어야한다. */
+  margin-bottom: 10px;
+}
